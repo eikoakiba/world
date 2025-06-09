@@ -1,0 +1,39 @@
+<html>
+<pre>
+## Select Random Music Bash Script
+
+# Noice: you to have .songs in your home direcotry
+# And list your youtube musics on that, f.g:
+#
+# $ cat ~/.songs
+# https://youtube.com/AkslAkd
+# https://youtube.com/AkslAks
+# https://youtube.com/Akslasd
+
+It's a interesting shell script that can randomly -
+Select a music for you.
+If you wanna change it, just email me your version
+
+#!/usr/bin/bash
+
+rnd=0
+asd=$(cat ~/.songs)
+dsa=($asd)
+if [[ $1 == "c" ]]; then
+        echo "you have ${#dsa[@]} musics !";
+        exit;
+fi
+while :
+do
+        rnd=$(( $RANDOM % ${#dsa[@]} ))
+        var=$(cat /tmp/rmuch_ca);
+        if [[ $var == $rnd ]]; then
+                continue
+        else
+                echo $rnd > /tmp/rmuch_ca
+                wslview ${dsa[$rnd]}
+                break
+        fi
+done
+</pre>
+</html>

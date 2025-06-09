@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Iosevka-neo;
+  src: url(assets/Iosevka-Extended.ttf);
+}
+
+html, body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Iosevka-neo;
+}
+
+body {
+    /* background: url(assets/1390156669.gif); */
+    background: url(assets/bridge_to_terabithia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size: 17px;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  column-gap: 30px;
+  row-gap: 15px;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+}
+
+marquee {
+  animation: marquee 2s linear infinite;
+  text-align:left;
+  /* color:#B8E9FF; */
+  margin-left: 5px;
+  color:white;
+  text-shadow: 1px 1px 10px black;
+  width: 53%;
+}
+
+.asd {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    text-align:center;
+    color: #121A36;
+}
+
+.asd a {
+  text-decoration: none;
+  text-shadow: 1px 1px 10px honeydew;
+  color: white;
+}
+
+.neon-text {
+  text-shadow: 1px 1px 10px honeydew;
+  color: #121A36;
+}
+
+@media (max-width: 70vh) { /* For smaller mobile screens */
+    body {
+        background-position: center; /* Slightly larger for better coverage */
+    }
+    .center {
+        font-size: 50px;
+    }
+
+    marquee {
+      width: 80%;
+    }
+
+    a {
+      color: white; !important
+    }
+}
+
+.neon_text{
+    text-decoration: none;
+    color:#B8E9FF;
+    text-shadow: 1px 1px 10px honeydew;
+}
+
+.neon_text a{
+    text-decoration: none;
+    color:#B8E9FF;
+    text-shadow: 1px 1px 10px honeydew;
+}
+
+/* .center a { */
+/*     color:#B8E9FF; */
+/*     text-shadow: 1px 1px 10px honeydew; */
+/*     text-decoration: none; */
+/* } */
+
+.buttons {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  float: right;
+  text-align: center;
+  /* padding: 1px; */
+}
+
+.status {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  float: right;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.status a {
+  text-decoration: none;
+  text-shadow: 1px 1px 10px honeydew;
+  color: white;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Eiko's web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="asd">
+    <!-- I really like her :) -->
+    <img style="margin-top: 5px" src="https://cld.sh/assets/img/2hus/48.png" onclick="nice()" alt="2hu #0"><br><br>
+
+    <a href="https://www.oldlinux.org/Linus/">Linus</a><br><br>
+
+    <a href="src">src</a><br><br>
+
+    <a href="https://mydora.restorativland.org/">Mydora</a><br><br>
+
+    <!-- <a href="music.html">Musics</a> <br><br> -->
+
+    <a href="blogs/blog.html">Blog</a> <br><br>
+
+    <a href="http://lain.angelic-trust.net/ego-captures.php">PICS</a><br><br>
+
+    <a href="SEL/index.html">SEL</a><br><br>
+
+    <a href="http://www.kt.rim.or.jp/~show_2/kaori/">Kaori</a> <br><br>
+
+    <!-- <a href="https://www.linfo.org/">Linfo</a><br><br> -->
+
+    <!-- <a href="mails.html">Lists</a><br><br> -->
+
+    <a href="links.html">Links</a><br><br>
+
+    <a href="buttons.html">Buttons</a><br><br>
+
+    <!-- <a style="cursor: pointer" onClick="ToggleBoon()">music</a><br><br> -->
+
+    <a href="https://tamanotchi.world/22853c"><img src="https://tamanotchi.world/i/22853"
+        alt="It's tamaNOTchi! Click to feed!"></a>
+  </div>
+  <div class="status neon-text">
+    <!-- Name: Eikoakiba <br> -->
+    Now: Songs <br>
+    Song: <a href='https://www.youtube.com/watch?v=ka2i82llmRE'>https://www.youtube.com/watch?v=ka2i82llmRE</a>
+  </div>
+  <div style="">
+    <marquee behavior="scroll" direction="up" scrollamount=2 style="height:97vh;width: 53%">
+      Make me sad, Make me mad, Make me feel alright? <br>
+      Welcome to my world, It's actually my home :3 <br>
+      I'm a computer lover, programmer, reader and a person who interested in modern/old things <br>
+      Honestly I don't have so much friends, there is some but i usually don't talk to them<br>
+      It's more comfortable for me to just answer emails, chats or even make contents <br>
+      My fav way of communication is to write blog, It may be weird at first but if you really <br>
+      Want to hear my inner voice, you can read my blogs :) <br>
+      My world involved of tech things. I love anything about it<br>
+      <!-- And I am surprised why people want to find the **best programming language** <br> -->
+      It is true that I love C more than others :3, but it's just my interest, I work with all of them <br>
+      Basically I love low level programming . But I use whatever is out there <br>
+      It is better to say that I love programming more than its tools <br>
+      Well I love old things like old hardware, software, games.<br>
+      Oh I love Japan, It's my favorite country and I wanna live in it<br>
+      And I love to watch anime, but I like to watch the best of all, and you can see *I LOVE SEL* :3 <br>
+      I like minimalism and that's why this websites is so clean. <br>
+      I'm a Unix/Gnu/Linux Lover. It's one of my main thing in my life. A Richard Stallman fan! <br>
+      You can find my big interests on the very right side of my website. <br>
+      I also have other websites, you can find those from links<br>
+      Sometimes it is hard to be alone. But I'm trying to don't care about it<br>
+      If you want to talk you can find me on discord (@eikoakiba)<br>
+      Have Fun coding :>.
+    </marquee>
+  </div>
+  <audio autoplay loop id="player">
+    <source src="https://github.com/ashk123/ashk123.github.io/raw/refs/heads/master/boon_loop.wav" type="audio/wav" />
+    Your browser does not support the audio element.
+  </audio>
+  <script>
+    // Utils functions
+    function format(str, ...values) {
+      return str.replace(/{(\d+)}/g, function (match, index) {
+        return typeof values[index] !== 'undefined' ? values[index] : match;
+      });
+    }
+
+    // Event based functions
+    function nice() {
+      let wallpapers = ["assets/1390156669.gif", "assets/wallpaper1.jpg"]
+      cwallpaper = document.getElementsByTagName("body")[0].style.background
+      if (cwallpaper.includes(wallpapers[1])) {
+        document.getElementsByTagName("body")[0].style.background = format('url({0})', wallpapers[0]);
+      } else {
+        document.getElementsByTagName("body")[0].style.background = format('url({0})', wallpapers[1]);
+      }
+
+      document.getElementsByTagName("body")[0].style.backgroundRepeat = 'no-repeat'
+      document.getElementsByTagName("body")[0].style.backgroundSize = 'cover'
+    }
+
+    // Autoload function (Main)
+    (function () {
+      // Autorun functions
+      var audio_player_sample = document.getElementById("player")
+      audio_player_sample.volume = 0.05;
+    })();
+
+  //
+  // function ToggleBoon() {
+  //   audio_player_sample = 0;
+  // }
+  </script>
+</body>
+
+</html>

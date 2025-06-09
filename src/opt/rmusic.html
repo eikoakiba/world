@@ -1,0 +1,32 @@
+<html>
+<pre>
+## Select Random Music Bash Script
+
+It's a interesting shell script that can randomly -
+Select a music for you, be sure to run it on Bash
+If you wanna change it, just email me your version
+(Using email because it's some how retro ^^)
+
+#!/usr/bin/bash
+
+rnd=0
+asd=$(cat ~/.songs)
+dsa=($asd)
+if [[ $1 == "c" ]]; then
+        echo "you have ${#dsa[@]} musics !";
+        exit;
+fi
+while :
+do
+        rnd=$(( $RANDOM % ${#dsa[@]} ))
+        var=$(cat /tmp/rmuch_ca);
+        if [[ $var == $rnd ]]; then
+                continue
+        else
+                echo $rnd > /tmp/rmuch_ca
+                wslview ${dsa[$rnd]}
+                break
+        fi
+done
+</pre>
+</html>

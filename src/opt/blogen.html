@@ -1,0 +1,56 @@
+<html>
+<pre>
+
+#!/usr/bin/env bash
+
+# Generate the static html pages
+./staticy
+
+function asd() {
+  rm -rf .dist.tmp
+  mv dist .dist.tmp
+}
+
+# Change the name to work properly, DUDE WTF?
+mv dist/index.html dist/blog.html
+
+if [[ $1 == "all" ]]; then
+  cp dist/* ../blogs/
+  echo "UPDATE: all files updated"
+  asd
+  exit 0
+fi
+
+# Check if there would be new content
+special_file="blog.html"
+source_files=(dist/*)
+dist_files=(../blogs/*)
+update_needed=()
+for i in ${source_files[@]}; do
+  if [[ $(basename $i) == $special_file ]]; then
+    continue
+  fi
+  file_name=$(basename $i)
+  diff "$i" "../blogs/$file_name" &>/dev/null
+  if (($? != 0)); then
+    update_needed+=($i)
+  fi
+done
+
+# Always update the the special file
+if ((${#update_needed[@]} >= 1)); then
+  update_needed+=("dist/$special_file")
+fi
+
+# Copy them to the actual website path
+for u in ${update_needed[@]}; do
+  cp "$u" ../blogs/
+  echo "UPDATE: updated $u blop post file"
+done
+
+# Temp extra files
+rm -rf .dist.tmp
+mv dist .dist.tmp
+
+</pre>
+</html>

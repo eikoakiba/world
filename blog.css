@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family: Iosevka-neo;
+  src: url(assets/Iosevka-Extended.ttf);
+}
+
+body {
+	background-color: #FFFFFF;
+  font-family: Iosevka-neo
+}
+
+.frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+li {
+    font-size: 18px;
+    list-style-type: decimal;
+    margin-bottom: 9px;
+}
+
+pre {
+    font-family: Iosevka;
+    background: whitesmoke;
+    padding: 9px;
+    font-size: 17px;
+}
+
+.header {
+    text-align: left;
+    width: 60%;
+}
+
+a {
+  text-decoration: 0;
+  color: black;
+}
+
+.main a {
+	text-decoration: solid underline black 1px;
+	color: black;
+}
+
+a:hover {
+	color: skyblue;
+}
+
+.blogs {
+	display: flex;
+	border-radius: 5px;
+	flex-direction: column;
+	gap: 15px;
+	width: 70%;
+}
+
+.menu {
+
+    text-decoration: underline;
+    text-align: right;
+}
+
+.section {
+    width: 60%;
+}
+
+.blog {
+	color: #687477;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.title {
+	font-style: bold;
+	font-size: 19px;
+}
+
+.text {
+	font-size: 15px;
+}
+
+.main {
+    color: black;
+    font-family: Iosevka-neo;
+    font-size: 17px;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+  background: blue;
+}
+
+.information{
+	font-size: 14px;
+
+

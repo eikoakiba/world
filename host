@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -x
+
+# Go to the working dir
+cd .staticly
+
+# Update the Blog posts (check posfts first)
+./gen
+
+# Go back to the main workspace
+cd ..
+
+# Push the changed to neocities
+neocities push .
+
+# when neocities done, then let's update the git repo
+mv .gitignore .neocitiesignore
+mv .realgitignore .gitignore
+git add -A
+git commit -m "Update my Woody House" # TODO: random generate commit message based on bridge to terabithia
+# git push -u origin master
+mv .gitignore .realgitignore
+mv .neocitiesignore .gitignore
