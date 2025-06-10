@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# NOTICE: you need to have the staticy binary to run this script
+# Please compile it on your system and then copy the binary here
+# Staticy is not a permanent way of doing static blog pages for me
+# And it will be a better way in the future for that.
+
 # Generate the static html pages
 ./staticy
 
