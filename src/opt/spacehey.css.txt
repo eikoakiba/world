@@ -1,0 +1,308 @@
+<style>
+          @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+body{font-family: "potta one" ;}
+.general-about{
+  position: relative;
+  margin-top: 30px;
+}
+#post{
+    background-image: url(https://64.media.tumblr.com/tumblr_mb1ci5hKbh1rt23hno1_400.gif);
+    text-align:center;
+    padding: 10px; 
+    border-radius: 10px;
+}
+#post_text{
+    background: #FD6596;
+    padding: 2px;
+    text-align:left;
+     border-radius: 5px;
+    width: 98%;
+    color: black;
+    text-shadow: 0px 0px 8px gray;
+    padding-left: 5px;
+    
+}
+
+body {
+    background: url(https://studybreaks.com/wp-content/uploads/2021/12/Image-from-iOS-1-2.jpg);
+  background-size: contain;
+}
+.profile {
+background-image:url(https://i.gifer.com/origin/53/5366eef68903d212ba5ca6c6cb2028e5_w200.gif);
+  background-repeat: cover;
+    border-radius: 12px;
+}
+/*the username glow and shadow*/
+h1
+{      <!-- color: #39FF14; -->
+        color: pink;
+  text-shadow: 2px 2px 3px #00000, 0 0 25px #000000, 0 0 5px #FFFFFF;
+}
+h1, h2, h3, h4,h5,a, p, nav label, .section
+{
+  
+main, top, links, nav .top, nav .links, details-table
+{
+    background:  !important;
+  background-image:   !important;
+  background-size: cover !important;
+    padding: 0 !important;
+    /*font-size: 150%;*/
+    color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(3px);
+
+{
+
+
+table, td
+}
+  /* border: 1px solid var(--url-pink-bg)!important; */
+  border-spacing: 2px;
+}
+
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions
+{
+    width: 100%;
+    <!-- border: 2px solid var(--#ffd1dc); -->
+
+}
+table, th, td
+
+}
+   border: 1px solid #00000;
+   border-spacing: 2px;
+}
+.blog
+}   
+   border: 10px solid #000000;
+}
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions
+}
+   width: 100%;
+   border: 4px outset #000000;
+   margin 10px 2;
+}
+
+.online
+{
+  color: pink;
+}
+
+:root 
+{       --logo-blue: ;
+  --darker-blue: ;
+  --lighter-blue: purple 55;
+  --even-lighter-blue: ;
+  --lightest-blue: ;
+  --dark-orange: ;
+  --light-orange: ;
+  --even-lighter-orange: ;
+  --white: ;
+        
+        --table-header:#ffd1dc;
+  --table-color: white;
+  --link-text: pink;
+  --main-text: pink;
+
+
+    }   
+main 
+{
+  /* changes made to stuff outside of columns */
+    background: black;
+    padding: 0;
+    font-size: large;
+    color: #000000;
+text color: pink;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px #000000, 0 0 3px #ffffff; 
+}
+footer 
+{
+background-image: url("https://i.pinimg.com/originals/62/3a/4a/623a4ae0cf5be39f1b6b6d2414e56de4.jpg");
+background-size: cover;
+color: white;
+text-shadow: 1px 1px 20px pink;
+}
+.comments-table{
+display: block;
+height: 500px;
+overflow-y: scroll;
+Border-radius: 15px; 
+background-image: url(https://i.pinimg.com/originals/01/e1/37/01e137d535892d2d52a4002da24c0160.gif);
+color: pink;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px #000000, 0 0 3px #000000; 
+}
+.comments-table button{
+  background: red;
+}
+.comments-table a button{
+  cursor: pointer;
+}
+.contact .inner{
+  margin-top: 5px;
+  border: 3px solid pink;
+  font-size: 13px;
+}
+color: pink;
+  text-shadow: 1px 1px 2px #000000, 0 0 25px #000000, 0 0 3px #000000; 
+}
+.friends th, tr, .friends td, th, .icon, main, .comments-table, .friends, .profile-info, .table, .table-section,  .url-info, .blurbs, .blog-preview, .details, 
+{
+border: 1px curve #000000 !important;
+outline: curve !important;
+}
+img
+{
+border-radius: 12px;
+}
+
+main {
+background:  black;
+border-radius: 14px;
+padding: 0;
+font-size: 85%;
+color: #000000;
+}
+
+nav, footer, .profile .contact {
+display: inherit !important;
+opacity: 1 !important;
+border-radius: 12px;
+}
+main {
+background:  ;
+border-radius: 12px;
+border: 12px solid #000000;
+padding: 0;
+font-size: 90%;
+color: pink;
+}
+nav .top {
+  background: transparent;
+}
+
+nav .links {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav { 
+/*background-image: url(https://64.media.tumblr.com/3c18165bee447dd9b5977962a1fd5758/76c20ae68abeefa9-2f/s540x810/03d7e58664ea5065ff4a26d3c15d393d2ba9bf20.jpg);
+background-size: cover;*/
+backdrop-filter: blur(7px);
+}
+
+
+
+/*customising interests box*/
+  .profile .table-section{
+    border:2px solid turquoise;
+    border-radius: 15px;
+background-image: url(https://img1.picmix.com/output/stamp/normal/2/9/6/5/1775692_53754.jpg);
+
+  }
+  .profile .table-section .heading{
+    background:#000000;
+    border: 1px solid turquoise;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+  }
+  .profile .table-section .heading h4{
+    color: black`;
+    text-shadow: 1px 1px 2px black;
+  }
+  .profile .table-section .details-table td{
+    background: rgba(0, 0, 0, 0);
+  }
+ /*customising friend space heading*/
+  .profile .friends .heading{
+    background-image: url(https://i.gifer.com/origin/53/5366eef68903d212ba5ca6c6cb2028e5_w200.gif);
+    border-radius: 10px;
+    padding: 5px;
+    color: #FD6594;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    border: 2px solid pink;
+  }
+  .profile .friends .heading h4{
+    text-align: center;
+    color: pink;
+    text-shadow: 1px 1px 2px black
+  }
+.general-about {
+  background-image: url(https://community.custom-cursor.com/uploads/default/original/3X/4/3/43fec56d901fff596462c72c0494a6e8635d8233.jpeg);
+  background-size: cover;
+        padding: 15px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #2d1157;
+  text-align: center;
+  animation: nineties2 2s ease 0s infinite normal none;
+  animation-delay: .46s;
+  margin-bottom: 10px;
+}
+.profile .blurbs .section :nth-child(2) {
+  background-image: url(https://64.media.tumblr.com/tumblr_mb1ci5hKbh1rt23hno1_400.gif);
+     /* margin-top: -5px; */
+  padding: 18px;
+  box-shadow: 4px 4px 0 #000;
+        border-radius: 10px;
+
+}
+
+.profile .profile-info .inner h3 {
+  filter: drop-shadow(3px 3px 0 #000000);
+  margin: 0!important;
+  color:#FFF;
+}
+.profile .profile-info .inner h3 a {
+  color: pink;
+}
+.profile .profile-info {
+  background-image: url(https://i.pinimg.com/originals/50/74/ea/5074ead53693fc6b9525243049d65aa4.gif);
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 #2d1157;
+  text-align: center;
+  animation: nineties2 2s ease 0s infinite normal none;
+  animation-delay: .15s;
+  border: none;
+}
+
+.table-section .heading h4{
+  color: pink;
+  padding: 5px;
+}
+
+.url-info p{
+  color: pink;
+}
+.friends .inner .friends-grid{
+  background-image: url(https://64.media.tumblr.com/tumblr_mb1ci5hKbh1rt23hno1_400.gif);
+  border-radius: 5px;
+  padding-top: 20px;
+}
+.friends .inner .count{
+  color: pink;
+}
+.friends .inner .friends-grid .person p{
+  color: pink;
+  font-size: 13px;
+  
+}
+.friends .inner .friends-grid{
+  flout: center;
+  width: 450px;
+}
+.friends .inner .friends-grid .person img{
+  margin: 10px;
+  height: 80px;
+}
+.friends .inner .friends-grid .person a{
+  margin-top: 5px;
+}
+.contact .heading h4{
+  color: white;
+}
+ </style>
