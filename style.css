@@ -77,6 +77,10 @@ marquee {
     .center {
         font-size: 50px;
     }
+    
+    .status {
+      display: none;
+    }
 
     marquee {
       width: 80%;
