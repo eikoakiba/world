@@ -2,6 +2,21 @@
 
 set -x
 
+if [[ $1 == "git" ]]; then
+  # when neocities done, then let's update the git repo
+  mv .gitignore .neocitiesignore
+  mv .realgitignore .gitignore
+  git add -A
+  git commit -m "Update my Woody House" # TODO: random generate commit message based on bridge to terabithia
+  # git push -u origin master
+  mv .gitignore .realgitignore
+  mv .neocitiesignore .gitignore
+fi
+
+if [ -n $1 ]; then
+  exit 0
+fi
+
 # Go to the working dir
 cd .staticly
 
@@ -13,12 +28,3 @@ cd ..
 
 # Push the changed to neocities
 neocities push .
-
-# when neocities done, then let's update the git repo
-mv .gitignore .neocitiesignore
-mv .realgitignore .gitignore
-git add -A
-git commit -m "Update my Woody House" # TODO: random generate commit message based on bridge to terabithia
-# git push -u origin master
-mv .gitignore .realgitignore
-mv .neocitiesignore .gitignore
