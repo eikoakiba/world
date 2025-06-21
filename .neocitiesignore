@@ -4,7 +4,7 @@ README.md
 .staticly
 assets/Iosevka-Extended.tff
 host
+src-back/*
 st
 src/Programming/.gen
 index.html.back
-new
