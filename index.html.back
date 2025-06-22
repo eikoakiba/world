@@ -11,7 +11,7 @@
 <body>
   <div class="asd">
     <!-- I really like her :) -->
-    <img style="margin-top: 5px" src="https://cld.sh/assets/img/2hus/48.png" onclick="nice()" alt="2hu #0"><br><br>
+    <a href="https://youtu.be/ROXGNVEIrrc?si=BzH59rW_TwdA7gyQ"><img style="margin-top: 5px" src="https://cld.sh/assets/img/2hus/48.png" alt="2hu #0"></a><br><br>
 
     <a href="https://www.oldlinux.org/Linus/">Linus</a><br><br>
 
@@ -39,17 +39,23 @@
 
     <!-- <a style="cursor: pointer" onClick="ToggleBoon()">music</a><br><br> -->
 
+    <!-- <a href="tv.html">TV</a><br><br> -->
+
     <a href="https://tamanotchi.world/22853c"><img src="https://tamanotchi.world/i/22853"
         alt="It's tamaNOTchi! Click to feed!"></a>
   </div>
   <div class="status neon-text">
     <!-- Name: Eikoakiba <br> -->
-    Now: Listening <br>
+    Now: Watching Office <br>
     Song: <a href='https://www.youtube.com/watch?v=frxTnVUONjE'>https://www.youtube.com/watch?v=frxTnVUONjE</a>
+    <br>
+    Current Fav Yt Video: <br>
+    <!-- <iframe width="460" height="215" alt="Video" src="https://www.youtube.com/embed/R29qN5EEcsM?si=kP2iJK_QPTobrvf2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+    <iframe width="460" height="215" src="https://www.youtube.com/embed/XQOFVeAhGkc?si=2R6g2TIBr0mEkmab" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div style="">
     <marquee behavior="scroll" direction="up" scrollamount=2 style="height:97vh;width: 53%">
-      Kepp your mind wide open :)<br>
+      keep your mind wide open :)<br>
       Welcome to my world, It's actually my home :3 <br>
       I'm a computer lover, programmer, reader and a person who interested in modern/old things <br>
       Honestly I don't have so much friends, there is some but i usually don't talk to them<br>
