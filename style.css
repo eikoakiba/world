@@ -142,15 +142,13 @@ marquee {
   display: flex;
   align-items: center; /* Vertically centers all items */
   justify-content: center;
-  gap: 10px;
   text-align: center;
   font-size: 15px;
+  gap: 5px;
   color: white;
-  /* text-align: center; */
-  padding: 8px;
+  text-align: center;
+  padding: 5px;
   border: 1px solid white;
-
-  /* font-family: Arial; */
 }
 
 .webring a {
