@@ -50,8 +50,8 @@ marquee {
 }
 
 .asd {
-    position: absolute;
-    right: 0;
+    /* position: absolute; */
+    /* right: 0; */
     margin-right: 10px;
     margin-top: 5px;
     float: right;
@@ -68,6 +68,16 @@ marquee {
 .neon-text {
   text-shadow: 1px 1px 10px honeydew;
   color: #121A36;
+}
+
+.neon-text-darker {
+  text-shadow: 1px 1px 10px black;
+  color: #231A14;
+}
+
+.neon-text-darker a{
+  text-shadow: 1px 1px 10px honeydew;
+  color: #231A14;
 }
 
 @media (max-width: 70vh) { /* For smaller mobile screens */
@@ -118,11 +128,38 @@ marquee {
   /* padding: 1px; */
 }
 
-.status {
+.container {
   position: absolute;
   right: 0;
   bottom: 0;
-  float: right;
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* float: right; */
+}
+
+.webring {
+  display: flex;
+  align-items: center; /* Vertically centers all items */
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  /* text-align: center; */
+  padding: 8px;
+  border: 1px solid white;
+
+  /* font-family: Arial; */
+}
+
+.webring a {
+  text-decoration: none;
+  text-shadow: 1px 1px 10px honeydew;
+  color: #231A14;
+}
+
+.status {
   font-size: 14px;
   color: white;
   text-align: center;
